@@ -1,5 +1,5 @@
 # Docker-Kubernetes-Project
-Step 1: Dockerize Application  
+**Step 1: Dockerize Application**  
 I cloned my own repository, in its earlier version (only app.py file)   
 requirements.txt file for dependencies   
 Dockerfile creation   
@@ -11,7 +11,7 @@ nano Dockerfile
 sudo docker build -t nikosk598/python-redis-sql .
 sudo docker push nikosk598/python-redis-sql
 ```
-Step 2: Kubernetes orchestration   
+**Step 2: Kubernetes orchestration**   
 Start minikube   
 ```bat
 minikube start
